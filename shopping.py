@@ -132,7 +132,7 @@ def evaluate(labels, predictions):
 
     pos_correct = 0
     neg_correct = 0
-    for i in range(len(labels) - 1):
+    for i in range(len(labels)):
         if labels[i] == 1:
             pos_total += 1
         else:
